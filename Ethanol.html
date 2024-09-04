@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethanol Sales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin: 0;
+        }
+
+        .logo {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-color: #008000;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .content h2 {
+            color: #008000;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .product p {
+            color: #555;
+        }
+
+        .price {
+            color: #008000;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            background-color: #008000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .buy-btn:hover {
+            background-color: #005700;
+        }
+
+        .contact-btn {
+            background-color: #0057b7;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .contact-btn:hover {
+            background-color: #003b82;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ethanol Sales</h1>
+    <div class="logo">
+        <img src="URL_OF_YOUR_LOGO" alt="Etanol Lab Logo" style="max-height: 60px;">
+    </div>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="banner">
+    <h2>Pure Ethanol for All Your Needs</h2>
+    <p>Quality you can trust. Prices you can afford.</p>
+</div>
+
+<div class="content">
+    <h2>Our Products</h2>
+
+    <div class="product">
+        <h3>Ethanol 95%</h3>
+        <p>High-quality ethanol perfect for industrial and laboratory use.</p>
+        <p class="price">$50 per gallon</p>
+        
+        <!-- PayPal Button for Ethanol 95% -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+            <input type="hidden" name="item_name" value="Ethanol 95%">
+            <input type="hidden" name="amount" value="50.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="button_subtype" value="services">
+            <input type="hidden" name="no_note" value="0">
+            <input type="hidden" name="cn" value="Add special instructions to the seller">
+            <input type="hidden" name="no_shipping" value="2">
+            <input type="hidden" name="rm" value="1">
+            <input type="hidden" name="return" value="https://yoursite.com/success">
+            <input type="hidden" name="cancel_return" value="https://yoursite.com/cancel">
+            <input type="hidden" name="tax_rate" value="0.000">
+            <input type="hidden" name="shipping" value="0.00">
+            <input type="hidden" name="shipping2" value="0.00">
+            <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
+
+    <div class="product">
+        <h3>Ethanol 99%</h3>
+        <p>Ultra-pure ethanol suitable for sensitive applications.</p>
+        <p class="price">$80 per gallon</p>
+        
+        <!-- PayPal Button for Ethanol 99% -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+            <input type="hidden" name="item_name" value="Ethanol 99%">
+            <input type="hidden" name="amount" value="80.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="button_subtype" value="services">
+            <input type="hidden" name="no_note" value="0">
+            <input type="hidden" name="cn" value="Add special instructions to the seller">
+            <input type="hidden" name="no_shipping" value="2">
+            <input type="hidden" name="rm" value="1">
+            <input type="hidden" name="return" value="https://yoursite.com/success">
+            <input type="hidden" name="cancel_return" value="https://yoursite.com/cancel">
+            <input type="hidden" name="tax_rate" value="0.000">
+            <input type="hidden" name="shipping" value="0.00">
+            <input type="hidden" name="shipping2" value="0.00">
+            <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
+
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <a href="tel:+01501774044" class="contact-btn">Call Us Now</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Ethanol Sales. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
